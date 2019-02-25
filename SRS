@@ -1,0 +1,214 @@
+
+Software Requirements Specification
+for
+Hotel Management
+Version 1.0 approved
+Prepared by 
+Yashashree Malondkar 20
+Sruthi Nair 23
+Shreyash Pandey 24
+
+Proposed to
+Jessica Ma’am
+
+
+18/01/2019
+Table of Contents
+Table of Contents	ii
+Revision History	ii
+1.	Introduction	1
+1.1	Purpose	1
+1.2	Document Conventions	1
+1.3	Intended Audience and Reading Suggestions	1
+1.4	Product Scope	1
+1.5	References	1
+2.	Overall Description	2
+2.1	Product Perspective	2
+2.2	Product Functions	2
+2.3	User Classes and Characteristics	2
+2.4	Operating Environment	2
+2.5	Design and Implementation Constraints	2
+2.6	User Documentation	2
+2.7	Assumptions and Dependencies	3
+3.	External Interface Requirements	3
+3.1	User Interfaces	3
+3.2	Hardware Interfaces	3
+3.3	Software Interfaces	3
+3.4	Communications Interfaces	3
+4.	System Features	4
+4.1	System Feature 1	4
+4.2	System Feature 2 (and so on)	4
+5.	Other Nonfunctional Requirements	4
+5.1	Performance Requirements	4
+5.2	Safety Requirements	5
+5.3	Security Requirements	5
+5.4	Software Quality Attributes	5
+5.5	Business Rules	5
+6.	Other Requirements	5
+Appendix A: Glossary	5
+Appendix B: Analysis Models	5
+Appendix C: To Be Determined List	6
+
+
+
+1. Introduction
+1.1 Purpose 
+Main objective of this project is to provide solution for hotel to manage most there work using computerized process. This software application will help admin to handle customers information, room allocation details, payment details, billing information etc.
+
+1.2 Intended Audience and Reading Suggestions
+The intended audience of this document would be owner and specific employees like manager and receptionist of hotel Syska, and project team with the objective to refer and analyze the information.
+1.3 Product Scope
+The introducing software Hotel Management System which is going to be implemented for Hotel Syska will automate the major operations of the hotel. The reservation system is to keep track in room and hall reservation and check availability. There is three end users for hotel Syska. The end  users are Owner, Manager and Receptionist. Owner can access to all system functionalities without any restrictions. Receptionist can only access to the reservation management system. Manager can access to all system functionalities with limited restrictions. To keep restrictions for each end user levels hotel Syska can create different login functions. 
+1.4 References
+http://www.scribd.com/doc/27927992/Hotel-Management-Case-Study,  [Accessed: June.28,2014]
+2. Overall Description
+2.1 Product Perspective
+The Hotel Management System is a new self-contained software product which will be produced by the project team in order to overcome the problems that have occurred due to the current manual system. The newly introduced system will provide an easy access to the system and it will contain user friendly functions with attractive interfaces. The system will give better options for the problems of handling large scale of physical system, for the errors occurring in calculation and all the other required task that has been specified by the client. The final outcome of this project will increase the efficiency of almost all the tasks done at the hotel in a much convenient manner.
+2.2 Product Functions
+Functional requirements
+
+Requirement id: R1.02.04
+Title: Booking
+Description: Valid e-mail id via login
+Priority:1
+
+Roles:  
+Requirement id: R1.02.05
+Title: Receptionist
+Description: Confirmation of online booking
+Priority:2
+
+Requirement id: R1.02.01
+Title: asking for customer’s order
+Description: when customer finalizes the order he gives order to the waiter
+Priority:3
+
+Requirement id: R1.02.03
+Title: preparing food
+Description: preparing as per customer’s requirement
+Priority:2
+
+Requirement id: R1.02.02
+Title: serving the food
+Description: when the food is prepared the waiter serves the food to the customer.
+Priority:2
+2.3 User Classes and Characteristics
+Educational level of HMS computer software – Low
+Experience of HMS Software – None
+Technical Expertise – Little
+2.4 Operating environment
+Hardware and Software requirements
+
+Hardware:
+1. Operating systems supports all known operating system such as windows, Linux.
+ 2. Computer 512MB+RAM, monitor with minimum resolutions of 1024x768, keyboard and mouse.
+3. Hard drive should be in NTFS file system with minimum 10GB of free space 
+4. A Laser printer will need to be used to print these reports and notes.
+
+Software:
+1. Software is designed to run on any platform above Microsoft windows 7(32bit).
+2. Microsoft .NET frameworks 4.0 or above.
+3. Microsoft SQL server management studio express 2010
+
+
+2.5 Design and Implementation Constraints
+Software development crew provides their best effort in developing the system. In order to maintain the reliability and durability of system, some design and implementation constraints are applied. Availability of an android app for hotel management system could make the system portable but due to time constraint it is not possible. system will need a minimum memory of 512MB.but it is recommended to have a memory of 1GB.when designing interfaces of system, we had the capability of working with the new tools such as Dev Express. 
+2.6 User Documentation
+User manual provide to the client will give a clear idea in interacting with the system.it will be written in a simple understandable language concealing the inner complexity of the system. A hard copy of the user manual will be delivered to the client with the delivery of system
+
+2.7 Assumptions and Dependencies
+-The system is not required to save generated reports.
+-Credit card payments are not included.
+3. External Interface Requirements
+3.1 User Interfaces
+The user interfaces screens are described in table 1.
+
+Table 1:Hotel Management User Interference Screens
+SCREEN NAME
+DESCRIPTION
+Login
+Log into the system as a Admin.
+Reservation
+Retrieve button, update/save reservation, cancel reservation, modify reservation, change reservation, adjust room rate, accept payment type/ credit card.
+Check-in
+Modify room stay (eg., new room credit card),check-in customer (with or without a reservation), adjust room rate, special requests, accept payment type/credit card.
+Checkout
+Checkout customer, generate bill.
+Hotel Payment
+Accept payment for room and food.
+Room Service/Restaurant
+Create order, modify order, view order, cancel order, generate meal bill.
+Customer Record
+Add or update customer records.
+Administer Rooms
+Availability and rates.
+Administer User
+Create, Modify and delete users; change password.
+Administer Meals
+Create, modify and delete meal items and prices.
+Reports
+Select, view, save and delete reports.
+
+3.2 Hardware Interfaces
+The system shall run on Windows based system.
+3.3 Software Interfaces
+The system shall interface with an Oracle or Access database.
+3.4 Communications Interfaces
+The system shall be a standalone product that does not require any communication interfaces.
+4. Specific Requirements
+This includes the features and requirements that is needed by the user as well as the admin to use this platform smoothly and efficiently.
+4.1  Functional Requirements
+Requirement id	 R1.02.04
+Title			 Booking
+Description		 Valid e-mail id via login
+Priority		 1
+
+Requirement id	 R1.02.05
+Title			 Receptionist
+Description		 Confirmation of online booking
+Priority		 2
+
+Requirement id	 R1.02.01
+Title			 Asking for customer’s order
+Description		 When customer finalizes the order he gives order to the waiter
+Priority		 3
+
+Requirement id	 R1.02.03
+Title			 Preparing food
+Description		 Preparing as per customer’s requirement
+Priority  		 2
+
+Requirement id	 R1.02.02
+Title			Serving the food
+Description 		When the food is prepared the waiter serves the food to the customer.
+Priority		 2
+
+4.2 Nonfunctional Requirements
+Requirement id	 R1.02.01
+Title 			 providing security
+Description 		 this action is done to provide complete security for transaction
+Priority		 1
+
+Requirement id	 R1.02.02
+Title 			 ID verification 
+Description 		 This action is done to verifying ID of registered users
+Priority		 2
+
+Requirement id	 R1.02.03
+Title			 Payment management
+Description		 This action is done to changing user with journey fees.
+Priority		 2
+
+Requirement id	 R1.02.06
+Title			 Reliable
+Description		 This system should be reliable at any given time
+Priority		 2
+Requirement id	 R1.02.07
+Title			 Correctness
+Description		 The input entered users should be correct.
+Priority		 2
+Appendix A: Glossary
+Advance rates- low rates advertised by the hotel to encourage guest to book in advance.
+Late arrival- Hotels that don’t operate a 24 hrs reception desk will need to make special 			         arrangements for guest who arrived after check-in time.
+Check in- the process whereby a guest announces their arrival at the hotel.
+Check out- settle one’s hotel bill before leaving 
